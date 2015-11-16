@@ -16,8 +16,9 @@ public let titleButtonTag = 114
 class BaseTableViewCell: UITableViewCell {
 
     
-    @IBOutlet weak var deleteButton: UIButton!
-    @IBOutlet weak var titleButton: UIButton!
+    @IBOutlet weak private var deleteButton: UIButton!
+    @IBOutlet weak private var titleButton: UIButton!
+    var delegate: TableViewCellDelegate?
     
     
     func configTag(){
@@ -49,7 +50,7 @@ class BaseTableViewCell: UITableViewCell {
     @IBAction func buttonCellTapped(sender: AnyObject){
         
         NSLog("Celltapp \(sender)")
-        
+        self.delegate?.tableViewCell(self, buttonTap: sender as! UIButton)
     }
 
 }

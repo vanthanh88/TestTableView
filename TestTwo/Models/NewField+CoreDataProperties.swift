@@ -2,7 +2,7 @@
 //  NewField+CoreDataProperties.swift
 //  TestTwo
 //
-//  Created by Nguyen Van Thanh on 10/30/15.
+//  Created by Ulaai on 11/14/15.
 //  Copyright © 2015 Nguyen Van Thanh. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -15,6 +15,6 @@ import CoreData
 extension NewField {
 
     @NSManaged var name: String?
-    @NSManaged var newfield: Person?
+    @NSManaged var person: Person?
 
 }

@@ -10,14 +10,6 @@
 		5A15FF121BDA6406001F61C5 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A15FF111BDA6406001F61C5 /* add.png */; };
 		5A15FF141BDA6955001F61C5 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A15FF131BDA6955001F61C5 /* minus.png */; };
 		5A581B2D1BDE3B73003C3C16 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5A581B2B1BDE3B73003C3C16 /* DataModel.xcdatamodeld */; };
-		5A667A441BE3753C000E6A3A /* NewField+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A667A3C1BE3753C000E6A3A /* NewField+CoreDataProperties.swift */; };
-		5A667A451BE3753C000E6A3A /* NewField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A667A3D1BE3753C000E6A3A /* NewField.swift */; };
-		5A667A461BE3753C000E6A3A /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A667A3E1BE3753C000E6A3A /* Address+CoreDataProperties.swift */; };
-		5A667A471BE3753C000E6A3A /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A667A3F1BE3753C000E6A3A /* Address.swift */; };
-		5A667A481BE3753C000E6A3A /* Email+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A667A401BE3753C000E6A3A /* Email+CoreDataProperties.swift */; };
-		5A667A491BE3753C000E6A3A /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A667A411BE3753C000E6A3A /* Email.swift */; };
-		5A667A4A1BE3753C000E6A3A /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A667A421BE3753C000E6A3A /* Person+CoreDataProperties.swift */; };
-		5A667A4B1BE3753C000E6A3A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A667A431BE3753C000E6A3A /* Person.swift */; };
 		5AC56B281BDB2BE7008DDCE3 /* TableViewCellLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC56B261BDB2BE7008DDCE3 /* TableViewCellLabel.swift */; };
 		5AC56B291BDB2BE7008DDCE3 /* TableViewCellLabel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AC56B271BDB2BE7008DDCE3 /* TableViewCellLabel.xib */; };
 		5ADB52561BDB62A300F9DDCD /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB52551BDB62A300F9DDCD /* BaseTableViewCell.swift */; };
@@ -35,6 +27,17 @@
 		5AEAEAF91BD8F8E100217460 /* TestTwoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAEAF81BD8F8E100217460 /* TestTwoTests.swift */; };
 		5AEAEB041BD8F8E100217460 /* TestTwoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AEAEB031BD8F8E100217460 /* TestTwoUITests.swift */; };
 		5AEAEB121BD90CF500217460 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AEAEB111BD90CF500217460 /* arrow.png */; };
+		F5A24C4A1BF720290088EB2D /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C481BF720290088EB2D /* CoreDataService.swift */; };
+		F5A24C4B1BF720290088EB2D /* DataBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C491BF720290088EB2D /* DataBaseManager.swift */; };
+		F5A24C511BF7378E0088EB2D /* PersonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C501BF7378E0088EB2D /* PersonManager.swift */; };
+		F5A24C5A1BF739180088EB2D /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C521BF739180088EB2D /* Person+CoreDataProperties.swift */; };
+		F5A24C5B1BF739180088EB2D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C531BF739180088EB2D /* Person.swift */; };
+		F5A24C5C1BF739180088EB2D /* Address+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C541BF739180088EB2D /* Address+CoreDataProperties.swift */; };
+		F5A24C5D1BF739180088EB2D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C551BF739180088EB2D /* Address.swift */; };
+		F5A24C5E1BF739180088EB2D /* Email+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C561BF739180088EB2D /* Email+CoreDataProperties.swift */; };
+		F5A24C5F1BF739180088EB2D /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C571BF739180088EB2D /* Email.swift */; };
+		F5A24C601BF739180088EB2D /* NewField+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C581BF739180088EB2D /* NewField+CoreDataProperties.swift */; };
+		F5A24C611BF739180088EB2D /* NewField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A24C591BF739180088EB2D /* NewField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,14 +61,6 @@
 		5A15FF111BDA6406001F61C5 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
 		5A15FF131BDA6955001F61C5 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
 		5A581B2C1BDE3B73003C3C16 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
-		5A667A3C1BE3753C000E6A3A /* NewField+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NewField+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5A667A3D1BE3753C000E6A3A /* NewField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewField.swift; sourceTree = "<group>"; };
-		5A667A3E1BE3753C000E6A3A /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5A667A3F1BE3753C000E6A3A /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
-		5A667A401BE3753C000E6A3A /* Email+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Email+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5A667A411BE3753C000E6A3A /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
-		5A667A421BE3753C000E6A3A /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		5A667A431BE3753C000E6A3A /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		5AC56B261BDB2BE7008DDCE3 /* TableViewCellLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellLabel.swift; sourceTree = "<group>"; };
 		5AC56B271BDB2BE7008DDCE3 /* TableViewCellLabel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellLabel.xib; sourceTree = "<group>"; };
 		5ADB52551BDB62A300F9DDCD /* BaseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
@@ -89,6 +84,17 @@
 		5AEAEB031BD8F8E100217460 /* TestTwoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoUITests.swift; sourceTree = "<group>"; };
 		5AEAEB051BD8F8E100217460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AEAEB111BD90CF500217460 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		F5A24C481BF720290088EB2D /* CoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		F5A24C491BF720290088EB2D /* DataBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataBaseManager.swift; sourceTree = "<group>"; };
+		F5A24C501BF7378E0088EB2D /* PersonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonManager.swift; sourceTree = "<group>"; };
+		F5A24C521BF739180088EB2D /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F5A24C531BF739180088EB2D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F5A24C541BF739180088EB2D /* Address+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Address+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F5A24C551BF739180088EB2D /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		F5A24C561BF739180088EB2D /* Email+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Email+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F5A24C571BF739180088EB2D /* Email.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		F5A24C581BF739180088EB2D /* NewField+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NewField+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		F5A24C591BF739180088EB2D /* NewField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,14 +125,14 @@
 		5A667A221BE374F1000E6A3A /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				5A667A3C1BE3753C000E6A3A /* NewField+CoreDataProperties.swift */,
-				5A667A3D1BE3753C000E6A3A /* NewField.swift */,
-				5A667A3E1BE3753C000E6A3A /* Address+CoreDataProperties.swift */,
-				5A667A3F1BE3753C000E6A3A /* Address.swift */,
-				5A667A401BE3753C000E6A3A /* Email+CoreDataProperties.swift */,
-				5A667A411BE3753C000E6A3A /* Email.swift */,
-				5A667A421BE3753C000E6A3A /* Person+CoreDataProperties.swift */,
-				5A667A431BE3753C000E6A3A /* Person.swift */,
+				F5A24C521BF739180088EB2D /* Person+CoreDataProperties.swift */,
+				F5A24C531BF739180088EB2D /* Person.swift */,
+				F5A24C541BF739180088EB2D /* Address+CoreDataProperties.swift */,
+				F5A24C551BF739180088EB2D /* Address.swift */,
+				F5A24C561BF739180088EB2D /* Email+CoreDataProperties.swift */,
+				F5A24C571BF739180088EB2D /* Email.swift */,
+				F5A24C581BF739180088EB2D /* NewField+CoreDataProperties.swift */,
+				F5A24C591BF739180088EB2D /* NewField.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -170,6 +176,7 @@
 		5AEAEAE21BD8F8E000217460 /* TestTwo */ = {
 			isa = PBXGroup;
 			children = (
+				F5A24C471BF720170088EB2D /* CoreData */,
 				5A667A221BE374F1000E6A3A /* Models */,
 				5AC56B251BDB2B93008DDCE3 /* CustomCells */,
 				5AEAEAE31BD8F8E000217460 /* AppDelegate.swift */,
@@ -202,6 +209,16 @@
 				5AEAEB051BD8F8E100217460 /* Info.plist */,
 			);
 			path = TestTwoUITests;
+			sourceTree = "<group>";
+		};
+		F5A24C471BF720170088EB2D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F5A24C481BF720290088EB2D /* CoreDataService.swift */,
+				F5A24C491BF720290088EB2D /* DataBaseManager.swift */,
+				F5A24C501BF7378E0088EB2D /* PersonManager.swift */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +289,7 @@
 				TargetAttributes = {
 					5AEAEADF1BD8F8E000217460 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 6L2DF94YFB;
 					};
 					5AEAEAF31BD8F8E100217460 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -342,21 +360,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A24C4A1BF720290088EB2D /* CoreDataService.swift in Sources */,
 				5ADB52611BDB816600F9DDCD /* LeftDetailTableViewCell.swift in Sources */,
 				5A581B2D1BDE3B73003C3C16 /* DataModel.xcdatamodeld in Sources */,
 				5ADB52561BDB62A300F9DDCD /* BaseTableViewCell.swift in Sources */,
-				5A667A461BE3753C000E6A3A /* Address+CoreDataProperties.swift in Sources */,
+				F5A24C511BF7378E0088EB2D /* PersonManager.swift in Sources */,
 				5AC56B281BDB2BE7008DDCE3 /* TableViewCellLabel.swift in Sources */,
 				5AEAEAE61BD8F8E000217460 /* ViewController.swift in Sources */,
-				5A667A471BE3753C000E6A3A /* Address.swift in Sources */,
-				5A667A481BE3753C000E6A3A /* Email+CoreDataProperties.swift in Sources */,
-				5A667A491BE3753C000E6A3A /* Email.swift in Sources */,
-				5A667A451BE3753C000E6A3A /* NewField.swift in Sources */,
+				F5A24C4B1BF720290088EB2D /* DataBaseManager.swift in Sources */,
+				F5A24C5A1BF739180088EB2D /* Person+CoreDataProperties.swift in Sources */,
+				F5A24C5D1BF739180088EB2D /* Address.swift in Sources */,
 				5AEAEAE41BD8F8E000217460 /* AppDelegate.swift in Sources */,
-				5A667A4A1BE3753C000E6A3A /* Person+CoreDataProperties.swift in Sources */,
-				5A667A441BE3753C000E6A3A /* NewField+CoreDataProperties.swift in Sources */,
+				F5A24C611BF739180088EB2D /* NewField.swift in Sources */,
+				F5A24C5C1BF739180088EB2D /* Address+CoreDataProperties.swift in Sources */,
+				F5A24C5F1BF739180088EB2D /* Email.swift in Sources */,
+				F5A24C5E1BF739180088EB2D /* Email+CoreDataProperties.swift in Sources */,
+				F5A24C5B1BF739180088EB2D /* Person.swift in Sources */,
+				F5A24C601BF739180088EB2D /* NewField+CoreDataProperties.swift in Sources */,
 				5ADB525D1BDB7F9200F9DDCD /* AddMoreTableViewCell.swift in Sources */,
-				5A667A4B1BE3753C000E6A3A /* Person.swift in Sources */,
 				5ADB52591BDB6AEA00F9DDCD /* TextFieldTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -500,12 +521,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TestTwo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.TestTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestTwo/Models/TestTwo-Bridging-Header.h";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -515,12 +538,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TestTwo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.app.TestTwo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "TestTwo/Models/TestTwo-Bridging-Header.h";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
